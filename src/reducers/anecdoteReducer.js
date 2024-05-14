@@ -53,7 +53,7 @@ const add = (text, state) => {
 
 }
 
-const reducer = (state = initialState, action) => {
+const anecdoteReducer = (state = initialState, action) => {
   console.log('state now: ', state)
   console.log('action', action)
 
@@ -66,4 +66,4 @@ const reducer = (state = initialState, action) => {
   }
 }
 
-export {reducer, addActionCreator, voteActionCreator}
+export {anecdoteReducer, addActionCreator, voteActionCreator}
